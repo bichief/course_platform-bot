@@ -1,0 +1,348 @@
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #383838;
+  width: 390px;
+  height: 600px;
+}
+.backgroundButton4 {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+  width: 155px;
+  height: 163px;
+}
+.b,
+.icon {
+  position: absolute;
+}
+.icon {
+  top: 66px;
+  left: 34px;
+  width: 91.11px;
+  height: 86px;
+}
+.b {
+  top: 19px;
+  left: calc(50% - 73px);
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 151px;
+  height: 25px;
+}
+.backgroundButton1,
+.button4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.button4 {
+  width: 156px;
+  height: 163px;
+  cursor: pointer;
+}
+.backgroundButton1 {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-darkslategray-100);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+}
+.p {
+  margin: 0;
+}
+.txt {
+  line-break: auto;
+  width: 100%;
+}
+.div {
+  position: absolute;
+  height: 50%;
+  width: 49.2%;
+  top: 5%;
+  left: 5.35%;
+  letter-spacing: -0.05em;
+  line-height: 100%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.span {
+  color: #7a59f9;
+}
+.div1 {
+  position: absolute;
+  height: 28%;
+  width: 87.7%;
+  top: 65%;
+  left: 5.35%;
+  font-size: var(--font-size-sm);
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+}
+.bueArrowIcon {
+  position: absolute;
+  height: 27.77%;
+  width: 8.21%;
+  top: 13.95%;
+  right: 12.15%;
+  bottom: 58.28%;
+  left: 79.64%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.button1 {
+  position: relative;
+  width: 187px;
+  height: 100px;
+  cursor: pointer;
+}
+.backgroundButton2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+}
+.div2 {
+  position: absolute;
+  height: 15%;
+  width: 67.91%;
+  top: 15%;
+  left: 5.35%;
+  letter-spacing: -0.05em;
+  line-height: 100%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.div3 {
+  height: 29%;
+  width: 79.68%;
+  top: 60%;
+  font-size: var(--font-size-sm);
+}
+.div3,
+.div4,
+.faq {
+  position: absolute;
+  left: 5.35%;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+}
+.faq {
+  height: 27.5%;
+  width: 39.04%;
+  top: 6.25%;
+  font-weight: 600;
+}
+.div4 {
+  height: 30%;
+  width: 65.24%;
+  top: 56.25%;
+  font-size: var(--font-size-sm);
+}
+.bueArrowIcon2 {
+  position: absolute;
+  height: 34.71%;
+  width: 8.21%;
+  top: 11.19%;
+  right: 12.15%;
+  bottom: 54.1%;
+  left: 79.64%;
+  border-radius: var(--br-12xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.button3 {
+  position: relative;
+  width: 187px;
+  height: 80px;
+  cursor: pointer;
+}
+.button1Parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 187px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+}
+.menu,
+.menu1 {
+  position: absolute;
+  width: 361px;
+  height: 310px;
+}
+.menu1 {
+  top: 0;
+  right: 0;
+}
+.menu {
+  top: 90px;
+  left: 14px;
+  text-align: center;
+}
+.backgroundTelegramButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: #4d8faf;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+  width: 119px;
+  height: 35px;
+}
+.botd0t,
+.telegram2 {
+  position: absolute;
+  top: 21px;
+  left: 19px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  width: 82px;
+  height: 10px;
+}
+.botd0t {
+  top: 5px;
+  left: 22px;
+  font-size: 16px;
+  width: 75px;
+  height: 12px;
+}
+.telegram,
+.telegram1 {
+  position: absolute;
+  width: 119px;
+  height: 35px;
+}
+.telegram1 {
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.telegram {
+  top: 19px;
+  left: 264px;
+  font-size: 10px;
+}
+.avatar,
+.statusBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.avatar {
+  border-radius: 50%;
+  background-color: var(--color-gray-200);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+  width: 47px;
+  height: 47px;
+}
+.statusBackground {
+  border-radius: var(--br-xl);
+  background-color: #d9d9d9;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 75px;
+  height: 15px;
+}
+.div5 {
+  position: absolute;
+  top: 2px;
+  left: 12px;
+  letter-spacing: -0.01em;
+  line-height: 100%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 51px;
+  height: 10px;
+}
+.levelstatus {
+  position: absolute;
+  top: 28px;
+  left: 61px;
+  width: 75px;
+  height: 15px;
+}
+.b1 {
+  position: absolute;
+  top: calc(50% - 18.5px);
+  left: calc(50% - 20.82px);
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  display: flex;
+  color: var(--color-white);
+  align-items: center;
+  width: 85px;
+  height: 22px;
+}
+.blackArrowIcon {
+  position: absolute;
+  top: 12.07px;
+  left: 149.93px;
+  border-radius: var(--br-12xs);
+  width: 7.46px;
+  height: 9.02px;
+}
+.level,
+.level1 {
+  position: absolute;
+  width: 157.63px;
+  height: 47px;
+}
+.level1 {
+  top: -5px;
+  left: 0;
+  cursor: pointer;
+}
+.level {
+  top: 16px;
+  left: 15px;
+  font-size: 11px;
+  color: var(--color-gray-200);
+}
+.lineUnder {
+  position: absolute;
+  top: 70px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 391px;
+  height: 1px;
+}
+.mainpage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 390px;
+  height: 600px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 21px;
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

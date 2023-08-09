@@ -42,9 +42,10 @@ class ThrottlingMiddleware(BaseMiddleware):
             key = f"{self.prefix}_message"
         delta = throttled.rate - throttled.delta
         if throttled.exceeded_count == 2:
-            await message.reply('Слишком Часто! Давай не так быстро ')
+            await message.reply('😡Не флуди!')
         if throttled.exceeded_count == 3:
-                await message.reply('Все, больше не отвечу, пока не пройдет 10 сек')
+                await message.reply('😞Я обиделся.\n'
+                                    'Не отвечу тебе на протяжении 10 секунд.')
         await asyncio.sleep(delta)
         thr = await dispatcher.check_key(key)
         if thr.exceeded_count == throttled.exceeded_count:

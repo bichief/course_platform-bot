@@ -17,7 +17,7 @@ services:
       - ./postgres:/var/lib/postgresql
 
   django:
-    container_name: admin_panel
+    container_name: main
     build:
       context: .
     command: >

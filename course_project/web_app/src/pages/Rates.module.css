@@ -1,0 +1,523 @@
+.upderTop1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #383838;
+    width: 390px;
+    height: 2826px;
+}
+
+.backButtonIcon1 {
+    position: absolute;
+    height: 0.99%;
+    width: 4.34%;
+    top: 0.5%;
+    right: 89.49%;
+    bottom: 98.5%;
+    left: 6.17%;
+    border-radius: 1px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+.priceBlockBackgroundIcon {
+    position: absolute;
+    top: calc(50% - 203.5px);
+    left: calc(50% - 189.71px);
+    border-radius: var(--br-6xl);
+    width: 379.43px;
+    height: 415px;
+}
+
+.p {
+    margin: 0;
+}
+
+.txt {
+    line-break: auto;
+    width: 100%;
+}
+
+.div {
+    position: absolute;
+    top: 21px;
+    left: 10px;
+    line-height: 100%;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    width: 360px;
+    height: 46px;
+}
+
+.p2 {
+    margin: 0;
+    color: var(--color-mediumaquamarine);
+}
+
+.p4,
+.p6 {
+    margin: 0;
+    color: #2f6fb6;
+}
+
+.p6 {
+    color: #7b5ec7;
+}
+
+.b {
+    position: absolute;
+    top: 106px;
+    left: 11px;
+    font-size: var(--font-size-xl);
+    letter-spacing: -0.01em;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    width: 351px;
+    height: 196px;
+    backdrop-filter: blur(4px);
+}
+
+.span {
+    color: var(--color-mediumaquamarine);
+}
+
+.div1 {
+    position: absolute;
+    top: 344px;
+    left: 93px;
+    font-size: 48px;
+    letter-spacing: -0.01em;
+    line-height: 150%;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    width: 186px;
+    height: 37px;
+    backdrop-filter: blur(4px);
+}
+
+.priceblock,
+.priceblock1 {
+    position: absolute;
+    width: 371.43px;
+    height: 407px;
+}
+
+.priceblock1 {
+    top: calc(50% - 203.5px);
+    left: calc(50% - 185.71px);
+}
+
+.priceblock {
+    top: 2203px;
+    left: 10px;
+}
+
+.buyButtonBackground1 {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    border-radius: var(--br-6xl);
+    background-color: var(--color-mediumslateblue);
+    width: 354px;
+    height: 55.89px;
+}
+
+.div2 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 153px);
+    line-height: 150%;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    width: 307px;
+    height: 56px;
+}
+
+.buybutton,
+.buybutton1 {
+    position: absolute;
+    width: 354px;
+    height: 56.89px;
+}
+
+.buybutton1 {
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.buybutton {
+    top: 2642px;
+    left: 17px;
+    font-size: 24px;
+}
+
+.inModuleBackgroundIcon,
+.mainBackgroundRateIcon {
+    position: absolute;
+    top: calc(50% - 927.5px);
+    left: calc(50% - 194px);
+    border-radius: var(--br-6xl);
+    width: 390px;
+    height: 1920px;
+}
+
+.inModuleBackgroundIcon {
+    top: calc(50% - 145px);
+    left: calc(50% - 187.5px);
+    width: 375px;
+    height: 290px;
+}
+
+.b1,
+.pycharmContainer {
+    position: absolute;
+    left: 10px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+}
+
+.b1 {
+    top: 10px;
+    justify-content: center;
+    width: 186px;
+    height: 22px;
+}
+
+.pycharmContainer {
+    top: 45px;
+    font-size: var(--font-size-mini);
+    text-align: left;
+    width: 342px;
+    height: 219.84px;
+}
+
+.inmodule {
+    position: relative;
+    width: 365px;
+    height: 280px;
+}
+
+.pythonModuleBackgroundIcon {
+    position: absolute;
+    top: calc(50% - 195px);
+    left: calc(50% - 187.5px);
+    border-radius: var(--br-6xl);
+    width: 375px;
+    height: 390px;
+}
+
+.python1,
+.pythonContainer {
+    position: absolute;
+    left: 10px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+}
+
+.python1 {
+    top: 10px;
+    justify-content: center;
+    width: 165px;
+    height: 20px;
+}
+
+.pythonContainer {
+    top: 40px;
+    font-size: var(--font-size-mini);
+    text-align: left;
+    width: 322px;
+    height: 322px;
+}
+
+.pythonmodule {
+    position: relative;
+    width: 365px;
+    height: 380px;
+}
+
+.aiogramModuleBackgroundIcon {
+    position: absolute;
+    top: calc(50% - 194.5px);
+    left: calc(50% - 187.5px);
+    border-radius: var(--br-6xl);
+    width: 375px;
+    height: 389px;
+}
+
+.aiogram,
+.aiogram2Container {
+    position: absolute;
+    left: 10px;
+    line-height: 150%;
+}
+
+.aiogram {
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 176px;
+    height: 20px;
+}
+
+.aiogram2Container {
+    top: 45px;
+    font-size: var(--font-size-mini);
+    text-align: left;
+    display: inline-block;
+    width: 322px;
+    height: 323px;
+}
+
+.aiogrammodule {
+    position: relative;
+    width: 365px;
+    height: 379px;
+}
+
+.dbModuleBackgroundIcon {
+    position: absolute;
+    top: calc(50% - 114px);
+    left: calc(50% - 187.5px);
+    border-radius: var(--br-6xl);
+    width: 375px;
+    height: 228px;
+}
+
+.b2,
+.crudContainer {
+    position: absolute;
+    top: 11px;
+    left: 10px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    width: 143px;
+    height: 20px;
+}
+
+.crudContainer {
+    top: 42px;
+    font-size: var(--font-size-mini);
+    width: 310px;
+    height: 161px;
+}
+
+.dbmodule {
+    position: relative;
+    width: 365px;
+    height: 218px;
+    text-align: left;
+}
+
+.serverModuleBackgroundIcon {
+    position: absolute;
+    top: calc(50% - 118.5px);
+    left: calc(50% - 187.5px);
+    border-radius: var(--br-6xl);
+    width: 375px;
+    height: 237px;
+}
+
+.b3,
+.div3 {
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    width: 242px;
+    height: 20px;
+}
+
+.div3 {
+    top: 47px;
+    font-size: var(--font-size-mini);
+    width: 326px;
+    height: 161px;
+}
+
+.servermodule {
+    position: relative;
+    width: 365px;
+    height: 227px;
+    text-align: left;
+}
+
+.bonusModuleBackgroundIcon {
+    position: absolute;
+    top: calc(50% - 112.5px);
+    left: calc(50% - 187.5px);
+    border-radius: var(--br-6xl);
+    width: 375px;
+    height: 225px;
+}
+
+.b4,
+.div4 {
+    position: absolute;
+    left: 10px;
+    line-height: 150%;
+}
+
+.b4 {
+    top: 16px;
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 20px;
+}
+
+.div4 {
+    top: 51px;
+    font-size: var(--font-size-mini);
+    display: inline-block;
+    width: 334px;
+}
+
+.bonusmodule {
+    position: relative;
+    width: 365px;
+    height: 215px;
+    text-align: left;
+}
+
+.inmoduleParent {
+    position: absolute;
+    top: 21px;
+    left: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.rate1,
+.rate11 {
+    position: absolute;
+    width: 380px;
+    height: 1845px;
+}
+
+.rate11 {
+    top: calc(50% - 922.5px);
+    left: calc(50% - 190px);
+}
+
+.rate1 {
+    top: 333px;
+    left: 4px;
+    text-align: center;
+    font-size: var(--font-size-xl);
+}
+
+.bonusCourseBackgroundIcon {
+    position: absolute;
+    top: calc(50% - 140.5px);
+    left: calc(50% - 190px);
+    border-radius: var(--br-6xl);
+    width: 380px;
+    height: 281px;
+}
+
+.b5 {
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 148px);
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    width: 295px;
+    height: 46px;
+}
+
+.b6 {
+    font-family: var(--font-montserrat);
+}
+
+.div5 {
+    position: absolute;
+    top: 75px;
+    left: calc(50% - 169px);
+    font-size: 14px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    width: 338px;
+}
+
+.backgroudMoreButton1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-6xl);
+    background-color: var(--color-mediumslateblue);
+    width: 157.78px;
+    height: 35px;
+}
+
+.b10,
+.button {
+    position: absolute;
+}
+
+.b10 {
+    top: 5px;
+    left: 6.81px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 144.16px;
+}
+
+.button {
+    top: 225px;
+    left: 105px;
+    width: 157.78px;
+    height: 35px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+.bonuscourse,
+.bonuscourse1 {
+    position: absolute;
+    width: 370px;
+    height: 271px;
+}
+
+.bonuscourse1 {
+    top: calc(50% - 135.5px);
+    left: calc(50% - 185px);
+}
+
+.bonuscourse {
+    top: 55px;
+    left: 11px;
+    font-size: 36px;
+}
+
+.rates {
+    position: relative;
+    background-color: #bcd2fb;
+    width: 100%;
+    height: 2748px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 30px;
+    color: var(--color-white);
+    font-family: var(--font-montserrat);
+}

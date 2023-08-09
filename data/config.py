@@ -12,7 +12,7 @@ DATABASE = str(os.getenv("DB_NAME"))
 
 
 admins = [
-    417804053
+    1955750981
 ]
 
 ip = os.getenv("ip")

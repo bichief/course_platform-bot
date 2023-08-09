@@ -1,3 +1,3 @@
-from admin_panel.manage import main
+from course_project.manage import main
 
 main()

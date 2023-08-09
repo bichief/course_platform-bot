@@ -1,0 +1,98 @@
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #383838;
+  width: 390px;
+  height: 600px;
+}
+.backButtonIcon {
+  position: absolute;
+  height: 4.54%;
+  width: 4.09%;
+  top: 2.82%;
+  right: 90.69%;
+  bottom: 92.64%;
+  left: 5.22%;
+  border-radius: 1px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.backgroundFaqInfo {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 190px);
+  border-radius: var(--br-xl);
+  background-color: #484848;
+  width: 380px;
+  height: 186px;
+}
+.span {
+  color: #7a59f9;
+}
+.b,
+.div {
+  position: absolute;
+  left: 20px;
+  line-height: 100%;
+}
+.b {
+  top: 18px;
+  font-size: 24px;
+}
+.div {
+  top: 59px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 309px;
+}
+.backgroundSupButton {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 70px);
+  border-radius: var(--br-xl);
+  background-color: #313131;
+  width: 140px;
+  height: 35px;
+}
+.b1,
+.supbutton {
+  position: absolute;
+}
+.b1 {
+  top: 9px;
+  left: 18px;
+  line-height: 100%;
+}
+.supbutton {
+  top: 130px;
+  left: calc(50% - 70px);
+  width: 140px;
+  height: 35px;
+}
+.faqinfo,
+.faqinfo1 {
+  position: absolute;
+  width: 380px;
+  height: 186px;
+}
+.faqinfo1 {
+  top: 0;
+  left: calc(50% - 190px);
+}
+.faqinfo {
+  top: 86px;
+  left: 5px;
+}
+.faq {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}

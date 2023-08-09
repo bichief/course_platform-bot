@@ -20,7 +20,7 @@ async def on_startup(dp):
 def setup_django():
     os.environ.setdefault(
         "DJANGO_SETTINGS_MODULE",
-        'admin_panel.admin_panel.settings'
+        'course_project.main.settings'
     )
     os.environ.update({"DJANGO_ALLOW_ASYNC_UNSAFE": "true"})
     django.setup()

@@ -1,0 +1,271 @@
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #383838;
+  width: 390px;
+  height: 768px;
+}
+.amountRefBackground {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslategray-100);
+  width: 365px;
+  height: 101px;
+}
+.b {
+  top: 8px;
+  left: 11px;
+  width: 235px;
+}
+.b,
+.div,
+.div1 {
+  position: absolute;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+}
+.div {
+  top: 0;
+  left: 267px;
+  font-size: 96px;
+  font-weight: 600;
+  color: var(--color-mediumslateblue);
+  width: 62px;
+  height: 105px;
+}
+.div1 {
+  top: 38px;
+  left: 177px;
+  font-size: var(--font-size-base);
+  width: 63px;
+}
+.balanceRefBackgroud,
+.mainref,
+.mainref1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 365px;
+  height: 105px;
+}
+.balanceRefBackgroud,
+.mainref {
+  top: 85px;
+  left: 12px;
+}
+.balanceRefBackgroud {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslategray-100);
+  height: 101px;
+}
+.b1,
+.div2 {
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+}
+.b1 {
+  position: absolute;
+  top: 6px;
+  left: 19.99px;
+  width: 332.85px;
+}
+.div2 {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  width: 36.5px;
+  height: 55px;
+}
+.div2,
+.div3,
+.moneyref {
+  position: absolute;
+}
+.div3 {
+  top: 24px;
+  left: 57px;
+  font-size: var(--font-size-base);
+  line-height: 100%;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  width: 74px;
+}
+.moneyref {
+  top: 38px;
+  left: 198px;
+  width: 131px;
+  height: 55px;
+  font-size: 48px;
+  color: var(--color-mediumslateblue);
+}
+.backgroundInforef,
+.balanceref,
+.balanceref1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 365px;
+  height: 101px;
+}
+.backgroundInforef,
+.balanceref {
+  top: 218px;
+  left: 12px;
+}
+.backgroundInforef {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkslategray-100);
+  height: 304px;
+}
+.span {
+  color: var(--color-mediumslateblue);
+}
+.txt {
+  line-break: auto;
+  width: 100%;
+}
+.b2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 304px;
+}
+.p {
+  font-weight: 500;
+}
+.p,
+.p1 {
+  margin: 0;
+}
+.div4,
+.inforeftext {
+  position: absolute;
+  width: 347.62px;
+}
+.div4 {
+  top: 45px;
+  left: 0;
+  font-size: var(--font-size-base);
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+.inforeftext {
+  top: 10px;
+  left: 11px;
+  height: 189px;
+}
+.referralLinkBack {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 165.12px);
+  border-radius: var(--br-xl);
+  background-color: #202020;
+  width: 330.24px;
+  height: 35px;
+}
+.div5 {
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 270px;
+}
+.circleAroundCopy {
+  position: absolute;
+  top: 5px;
+  left: 301px;
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue);
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
+  width: 25px;
+  height: 25px;
+}
+.copyDocumentSvgrepoCom1Icon {
+  position: absolute;
+  top: 10px;
+  left: 306px;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+}
+.copylink {
+  top: 30px;
+  left: calc(50% - 165.12px);
+  width: 330.24px;
+  height: 35px;
+}
+.copylink,
+.div6,
+.reflink {
+  position: absolute;
+}
+.div6 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 230px;
+}
+.reflink {
+  top: 215px;
+  left: calc(50% - 171.5px);
+  width: 330.24px;
+  height: 65px;
+  font-size: 14px;
+}
+.inforef,
+.inforef1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 365px;
+  height: 304px;
+}
+.inforef {
+  top: 349px;
+  left: 12px;
+  height: 333px;
+  font-size: 24px;
+}
+.backButtonIcon {
+  position: absolute;
+  height: 3.56%;
+  width: 4.34%;
+  top: 1.81%;
+  right: 89.49%;
+  bottom: 94.64%;
+  left: 6.17%;
+  border-radius: 1px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.refferal {
+  position: relative;
+  width: 100%;
+  height: 768px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
+}
