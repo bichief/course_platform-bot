@@ -1,7 +1,7 @@
 from asgiref.sync import sync_to_async
 from django.db import InterfaceError, connection
 
-from course_project.admin_panel.models import Users, CourseProgress
+from course_project.admin_panel.models import Users, CourseProgress, Courses
 
 
 @sync_to_async()
@@ -49,5 +49,27 @@ def get_course_progress(telegram_id):
     try:
         return CourseProgress.objects.filter(student__telegram_id=telegram_id).first()
 
+    except InterfaceError:
+        connection.close()
+
+
+@sync_to_async()
+def get_courses():
+    """
+    Функция, возвращающая все курсы для клавиатуры
+    """
+    try:
+        return Courses.objects.order_by('pk').all()
+    except InterfaceError:
+        connection.close()
+
+
+@sync_to_async()
+def get_course_db(pk):
+    """
+    Функция, возвращающая курс по ключу (pk)
+    """
+    try:
+        return Courses.objects.filter(pk=pk).first()
     except InterfaceError:
         connection.close()

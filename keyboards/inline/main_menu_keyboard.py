@@ -18,7 +18,7 @@ async def show_menu_keyboard(telegram_id):
                                             InlineKeyboardButton(text='Курсы', callback_data='courses')
                                         ],
                                         [
-                                            InlineKeyboardButton(text='Обучение', callback_data='study')
+                                            InlineKeyboardButton(text='📕 Обучение', callback_data='study')
                                         ],
                                         [
                                             InlineKeyboardButton(text='Вебинары', callback_data='vebinars')

@@ -140,6 +140,13 @@ class Courses(models.Model):
         help_text='стоимость курса в рублях'
     )
 
+    lessons_link = models.CharField(
+        null=True,
+        max_length=50000,
+        verbose_name='Поурочка',
+        help_text='Поурочка'
+    )
+
     def __str__(self):
         return self.course_title
 

@@ -11,7 +11,6 @@ from utils.db_api.db_commands import create_user, get_user, get_course_progress
 from utils.misc import rate_limit
 
 
-@rate_limit(10)
 @dp.message_handler(CommandStart(), state='*')
 async def start_cmd(message: types.Message, state: FSMContext):
     state_info = await state.get_state()
@@ -78,7 +77,7 @@ async def start_cmd(message: types.Message, state: FSMContext):
             else:
                 await message.answer_sticker('CAACAgIAAxkBAAMKZMpeonFb_1MPUD_caBro6EwSu0UAAgEBAAJWnb0KIr6fDrjC5jQvBA')
                 await message.answer(f'''👋Привет, {message.from_user.first_name}!
-    
+
 🧑‍💻Перед началом использования бота тебе необходимо <b>подписаться</b> на наш Телеграм канал''',
                                      reply_markup=ch_kb)
         else:
